@@ -1,0 +1,6 @@
+*.vba text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.applescript text eol=lf
+*.xlsm binary
+*.xls binary

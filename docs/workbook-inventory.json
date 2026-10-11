@@ -1,0 +1,164 @@
+{
+  "sheets": [
+    {
+      "name": "Budget Check",
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "value": "FFF BUDGET CHECK",
+          "type": 1,
+          "style": 62
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "value": "Double-click here to run checks",
+          "type": 1,
+          "style": 64
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "value": "Ready - copy this tab into your budget to start.",
+          "type": 1,
+          "style": 66
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "value": "Budget sheet (blank = auto)",
+          "type": 1,
+          "style": 15
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "value": "Fringe review threshold",
+          "type": 1,
+          "style": 15
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "value": 0.6,
+          "type": 2,
+          "style": 68
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "value": "Copy this whole worksheet into your FFF workbook. Enable macros.",
+          "type": 1,
+          "style": 66
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "value": "Checks leave budget cells unchanged. Click a cell link in the report to visit it.",
+          "type": 1,
+          "style": 66
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "value": "Run again after editing; results are a snapshot.",
+          "type": 1,
+          "style": 66
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "value": "Severity",
+          "type": 1,
+          "style": 69
+        },
+        {
+          "row": 12,
+          "column": 2,
+          "value": "Cell",
+          "type": 1,
+          "style": 69
+        },
+        {
+          "row": 12,
+          "column": 3,
+          "value": "Budget item",
+          "type": 1,
+          "style": 69
+        },
+        {
+          "row": 12,
+          "column": 4,
+          "value": "Check",
+          "type": 1,
+          "style": 69
+        },
+        {
+          "row": 12,
+          "column": 5,
+          "value": "Current value",
+          "type": 1,
+          "style": 69
+        },
+        {
+          "row": 12,
+          "column": 6,
+          "value": "Review guidance",
+          "type": 1,
+          "style": 69
+        }
+      ],
+      "merged_ranges": [
+        [
+          0,
+          1,
+          0,
+          6
+        ],
+        [
+          2,
+          3,
+          0,
+          6
+        ],
+        [
+          3,
+          4,
+          0,
+          6
+        ],
+        [
+          7,
+          8,
+          0,
+          6
+        ],
+        [
+          8,
+          9,
+          0,
+          6
+        ],
+        [
+          9,
+          10,
+          0,
+          6
+        ]
+      ],
+      "column_widths": {
+        "1": 7893,
+        "2": 4821,
+        "3": 9941,
+        "4": 7381,
+        "5": 4309,
+        "6": 15573
+      }
+    }
+  ],
+  "defined_names": [],
+  "vba_modules": [
+    "Sheet1.cls"
+  ]
+}
