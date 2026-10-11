@@ -6,7 +6,7 @@ Check formulas, subtotals and fringe inputs in compatible FFF / SES Excel budget
 
 [Complete download with licence and source (.zip)](https://github.com/joonaskaup/FFF-Budget-Check/releases/download/v1.0.0/FFF_Budget_Check_v1.0.0.zip) · [All releases](https://github.com/joonaskaup/FFF-Budget-Check/releases) · [Report a problem](https://github.com/joonaskaup/FFF-Budget-Check/issues)
 
-Requires desktop **Microsoft Excel with VBA macros**. Tested on Excel for Mac with the supplied Finnish layout. English label recognition is included; a complete English-template run and Windows compatibility have not been verified. Excel online, Google Sheets and LibreOffice are not supported by this release.
+Requires desktop **Microsoft Excel with VBA macros**. Tested on Excel for Mac with the supplied Finnish and English templates. Windows compatibility has not been verified. Excel online, Google Sheets and LibreOffice are not supported by this release.
 
 The download contains one independent **Budget Check** worksheet. Its VBA lives in the worksheet, so copying the whole tab also copies the checker. Replace older checker tabs with this release.
 
@@ -27,7 +27,7 @@ Checks inspect the selected sheet from row 6 through its used range. H5 and I5 m
 - Excel errors in H/I are errors; dependent error cells are also reported.
 - Negative calculated totals are review warnings.
 - Blank H cells with inputs or fringe labels are review warnings when I does not already calculate a total. Blank I cells with a total label are review warnings. Other intentionally blank cells are ignored.
-- Fringe rows are identified by an exact explicit label in B or C, such as Finnish `lomakorvaus` / `palkansivukulut` or English `holiday pay` / `social costs` / `fringe`. Surrounding whitespace and a trailing colon are ignored. A word such as `social` inside an equipment description or person’s name is not a fringe label. The percentage input is column D in the inspected template.
+- Fringe rows are identified by an exact explicit label in B or C, such as Finnish `lomakorvaus` / `palkansivukulut` or English `holiday compensation` / `social charges`. Other recognized English labels include `holiday pay`, `social costs` and `fringe`. Surrounding whitespace and a trailing colon are ignored. A word such as `social` inside an equipment description or person’s name is not a fringe label. The percentage input is column D in the inspected templates.
 - Negative fringes, fringes above 100%, text fringe inputs and fringe formula errors are errors. B6 sets an adjustable high-fringe review threshold (default **60%**). This is a review preference, not a statement about permitted employment rates.
 
 Additional checks:
@@ -55,7 +55,7 @@ Missing-input and copied-reference checks target template-style IF calculations 
 
 External-link auditing and calculation-mode warnings are intentionally omitted.
 
-Tested in desktop Excel for Mac on the supplied Finnish template. English label recognition is included, but a complete English-template run and Windows compatibility have not been verified.
+Tested in desktop Excel for Mac on the supplied Finnish and English templates. The English template passed with fictional costs across all 21 sections, including laboratory and equipment. Tests also covered a custom English layout with K/L deleted and totals calculated in I, inserted and removed cost rows, and account codes in A. Deliberate formula, input, fringe, subtotal-range and summary errors were detected, including omitted zero-value lines. These checks required no changes to the v1.0.0 checker. Windows compatibility has not been verified.
 
 ## Source and development
 
